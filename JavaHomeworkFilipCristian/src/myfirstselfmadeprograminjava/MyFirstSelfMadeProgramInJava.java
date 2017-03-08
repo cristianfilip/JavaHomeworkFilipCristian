@@ -10,5 +10,8 @@ public class MyFirstSelfMadeProgramInJava {
         System.out.print("Please type here: ");
         String name = scan.nextLine();
         System.out.println("Buna " + name + " ! Cati ani ai ?");
+        System.out.print("Please type here: ");
+        String age = scan.nextLine();
+        System.out.println(age + " de ani este o varsta foarte frumoasa");
     }
 }
