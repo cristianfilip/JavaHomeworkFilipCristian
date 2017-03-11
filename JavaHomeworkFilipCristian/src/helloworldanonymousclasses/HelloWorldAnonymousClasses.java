@@ -1,3 +1,4 @@
+
 package helloworldanonymousclasses;
 
 /**
@@ -16,7 +17,7 @@ public class HelloWorldAnonymousClasses {
 // Method sayHello prints public void sayHello() {
 // Local class EnglishGreetings implemented in the method sayHello() class EnglishGreeting implements HelloWorld {
     public void sayHello() {
-        
+
         class EnglishGreeting implements HelloWorld {
 
             String name = "world";
@@ -38,7 +39,7 @@ public class HelloWorldAnonymousClasses {
 
 // create an anonimous class that greets in French language HelloWorld frenchGreeting;
         class FrenchGreeting implements HelloWorld {
-            
+
             String name = "tout le monde";
 
             @Override
@@ -56,7 +57,7 @@ public class HelloWorldAnonymousClasses {
 
 // create an anonimous class for Spanish language HelloWorld spanishGreeting;
         class SpanishGreeting implements HelloWorld {
-            
+
             String name = "mundo";
 
             @Override
