@@ -14,9 +14,9 @@ public class TestFileManagement {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         //FilesManagement.writeToFile();
         //FilesManagement.readFromFile();
-        FilesManagement.appendToFile();
+        //FilesManagement.appendToFile();
         //FilesManagement.deleteContent();
-        
+        FilesManagement.readFromFile1();
     }
     
 }

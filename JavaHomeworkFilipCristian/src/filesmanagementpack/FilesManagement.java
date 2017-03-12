@@ -79,6 +79,14 @@ public class FilesManagement {
 
     }
 
-    
+    public static void readFromFile1() throws FileNotFoundException, IOException {
+        try (BufferedReader r = new BufferedReader(new FileReader("D:\\Documents\\programare\\java\\FilesManagementOutput.txt"))) {
+            String firstLine = r.readLine();
+            System.out.println(firstLine);
+        } catch (IOException e) {
+            System.out.println("Cannot read first line from file " + e.getMessage());
+        }
+        
+    }
 
 }
