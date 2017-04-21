@@ -10,7 +10,7 @@ public class ThrowsSyntax {
      */
     public static void main(String[] args) {
         try {
-            System.out.println(circleArea(-10.5));
+            System.out.println(circleArea(-1.5));
         } catch (Exception e) {
             System.out.println("Cannot calculate area: " + e.getMessage());
         }

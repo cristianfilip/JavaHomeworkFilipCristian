@@ -24,7 +24,7 @@ public class ValidationException extends Exception {
 
     public static void main(String[] args) {
         try {
-            int age = parseAge(args[0]);
+            int age = parseAge("ji");
         } catch (ValidationException e) {
             System.out.println("Invalid age argument: " + e.getMessage());
         }
